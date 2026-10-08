@@ -1,6 +1,6 @@
 function sum_to_n_a(n) {
   return (n * (n + 1)) / 2;
-}
+} 
 
 function sum_to_n_b(n) {
   return Array.from({ length: n }, (_, i) => i + 1).reduce(
